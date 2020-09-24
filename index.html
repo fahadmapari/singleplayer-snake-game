@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/d4cc5fd05d.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Classic Snake</title>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-content">
+        <i class="fas fa-pizza-slice fa-10x"></i>
+        <h2>You Ate Yourself!</h2>
+        <p>Score: <span id="score">0</span></p>
+      </div>
+    </div>
+    <div class="header">
+      <img src="./snake.png" alt="snake" />
+      <h2>ClassicSnake.</h2>
+    </div>
+    <div class="score-keeper">
+      <p><i class="fas fa-apple-alt"></i>: <span id="score2">0</span></p>
+    </div>
+    <canvas class="canvas"> </canvas>
+    <div class="controls">
+      <button id="up"><i class="fas fa-arrow-up fa-2x"></i></button>
+    </div>
+
+    <div class="controls2">
+      <button id="left"><i class="fas fa-arrow-left fa-2x"></i></button>
+      <button id="right"><i class="fas fa-arrow-right fa-2x"></i></button>
+    </div>
+
+    <div class="controls3">
+      <button id="down"><i class="fas fa-arrow-down fa-2x"></i></button>
+    </div>
+
+    <footer>
+      <p>
+        Made with ❤ by
+        <a href="https://www.instagram.com/fahadmapari" target="_blank"
+          >Fahad Mapari</a
+        >
+      </p>
+    </footer>
+
+    <script type="text/javascript" src="./fruit.js"></script>
+    <script type="text/javascript" src="./snake.js"></script>
+    <script type="text/javascript" src="./draw.js"></script>
+  </body>
+</html>
