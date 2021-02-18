@@ -7,4 +7,5 @@ https://snakegameinjs.netlify.app
 
 ![alt text](https://i.imgur.com/DEb9m5O.png)
 
+(mobile view)
 ![alt text](https://i.imgur.com/GK2EZCF.png)
